@@ -21,7 +21,7 @@ services:
     labels:
       - "traefik.enable=false"
   invoiceplane:
-    image: mhzawadi/invoiceplane:dev-code
+    image: alpenglowtech/invoiceplane:dev-code
     volumes:
       - invoiceplane_data:/var/www/html/uploads
     environment:
